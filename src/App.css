@@ -2,3 +2,6 @@
     background-color: black;
     height: 100%
 }
+nav ul li:hover{
+    color: #8B85A9;
+}
