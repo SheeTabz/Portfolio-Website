@@ -11,7 +11,7 @@ module.exports = {
         text : "#FFFFFF",
         dark :  "#2A2253",
         text2 : "#8B85A9",
-        bright : "8165D2 "
+        bright : "#8165D2 "
       }
     },
     screens :{
