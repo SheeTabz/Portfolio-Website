@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function NavBar() {
  
@@ -26,8 +27,17 @@ function NavBar() {
   <nav>
     <ul className='flex space-x-8 capitalize text-[18px]'>
        {navData.map((data,index)=>{
-        return <li className='text-text  hover:text-dark cursor-pointer'  key={index}>
-          {data}
+        return <li className='text-text  cursor-pointer'  key={index}>
+          <Link 
+          to={data.href}
+          activeClass='active'
+          spy={true}
+          smooth={true}
+          duration={500}
+          offset={-70}
+          className='transition-all duration-600'
+          >{data.name}
+          </Link>
           </li>
        })}
     </ul>
