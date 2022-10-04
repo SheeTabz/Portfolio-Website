@@ -5,3 +5,8 @@
 nav ul li:hover{
     color: #8B85A9;
 }
+.motioned{
+    display: flex;
+    text-align: center;
+    font-weight: 800;
+}
