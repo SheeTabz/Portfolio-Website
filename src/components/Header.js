@@ -16,15 +16,15 @@ function Header() {
             <div className="container mx-auto h-full flex item-center justify-between">
             
                 {/* logo Image */}
-                <div className="  lg:block">
-                    <SocialMeidal />
-                     </div>
+              <h2>TABITHA WANJIRA</h2>
                 {/* <NavBar /> */}
                 <div className="hidden lg:block">
                     <NavBar /> 
                     </div>
                 {/* <SocialMeidal/> */}
-                
+                {/* <div className=" hidden lg:block">
+                    <SocialMeidal />
+                     </div> */}
                 {/* <MobileNav /> */}
                 <div className=" lg:block">
                     <MobileNav />
