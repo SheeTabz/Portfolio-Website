@@ -6,9 +6,9 @@ nav ul li{
     font-size: 20px;
     font-weight: 800;
 }
-nav ul li:hover{
+/* nav ul li:hover{
     color: #8B85A9;
-}
+} */
 .motioned{
     display: flex;
     text-align: center;
@@ -41,13 +41,44 @@ nav ul li:hover{
     border-bottom: none;
     border-right: none;
 }
-.leftSection h5{
-    background: linear-gradient(to right, #f32170, #9e82f0, yellow);
+.leftSection h5,.section-title span, .contSpan{
+    background: linear-gradient(to right, #f32170, #9e82f0);
 -webkit-text-fill-color: transparent;
 -webkit-background-clip: text;
 }
  .btn{
    background-image: linear-gradient(to right, #f32170, #9e82f0)
+}
+.card{
+    /* box-shadow: 5px 0px 5px rgba(120, 212, 108, 0.2); */
+}
+.navpro{
+    background:  transparent;
+    color:white;
+    border: none;
+    width:200px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 4px 5px;
+    transition: all 0.02s ease;
+}
+.active{
+    background:  white;
+    color:black;
+  
+}
+.section-title{
+    font-size: 1.875rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+input,textarea{
+    background-color: #111111;
+    color:#fff;
+    padding: 10px;
+}
+#contacts{
+    max-height: 
 }
 /* .about-h2::before{
     content: 'ABOUT';
