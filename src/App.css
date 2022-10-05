@@ -2,6 +2,10 @@
     background-color: black;
     height: 100%
 }
+nav ul li{
+    font-size: 20px;
+    font-weight: 800;
+}
 nav ul li:hover{
     color: #8B85A9;
 }
@@ -10,3 +14,46 @@ nav ul li:hover{
     text-align: center;
     font-weight: 800;
 }
+.heroSection{
+    /* background-image:linear-gradient(to bottom, white, #36274e); */
+}
+.leftSection::after{
+    content:'';
+    position: absolute;
+    top: 50%;
+   left:80%;
+   height: 80px;
+   width: 80px;
+    border: 2px solid #dd4cca;
+    border-style: double;
+    border-top: none;
+    border-left: none;
+}
+.leftSection::before{
+    content:'';
+    position: absolute;
+    top: 10%;
+   left:8%;
+    height: 80px;
+    width: 80px;
+    border-style: double;
+    border: 2px solid #dd4cca;
+    border-bottom: none;
+    border-right: none;
+}
+.leftSection h5{
+    background: linear-gradient(to right, #f32170, #9e82f0, yellow);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+ .btn{
+   background-image: linear-gradient(to right, #f32170, #9e82f0)
+}
+/* .about-h2::before{
+    content: 'ABOUT';
+    position: absolute;
+    opacity:40;
+    top: 2rem;
+    
+
+} */
