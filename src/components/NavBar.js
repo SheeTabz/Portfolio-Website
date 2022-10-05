@@ -27,7 +27,7 @@ function NavBar() {
   <nav>
     <ul className='flex space-x-8 capitalize text-[18px]'>
        {navData.map((data,index)=>{
-        return <li className='text-text  cursor-pointer'  key={index}>
+        return <li className='  cursor-pointer'  key={index}>
           <Link 
           to={data.href}
           activeClass='active'
