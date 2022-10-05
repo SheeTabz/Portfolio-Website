@@ -13,7 +13,8 @@ module.exports = {
         text2 : "#8B85A9",
         bright : "#C44CB6 ",
         gradient1: '#CE6D88',
-        cardColor: '#191919'
+        cardColor: '#191919',
+      
       }
     },
     screens :{
