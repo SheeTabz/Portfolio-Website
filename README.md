@@ -21,6 +21,7 @@ Use the link provided to navigate to my Portfolio website .
 
 ## Contribution
 If you need to contribute to this project follow the steps below:<br>
+- Fork the repo first (`fork`)
 - Clone the repo(`git clone <repo link>`)
 - Create a branch where you will add changes (`git branch -b <branchname>`)
 - Add the changes (`git add .`)
@@ -63,8 +64,8 @@ function ServiceItem({children}) {
 export default ServiceItem
 ```
 ### Author
-[<img src="./assets/images/profile2.jpg" width="300px">](https://github.com/SheeTabz)<br>
-[TABITHA MURIITHI](https://github.com/SheeTabz)
+#### [TABITHA MURIITHI](https://github.com/SheeTabz)
+#### Contact Info -[wmuriithitabitha@gmail.com](wmuriithitabitha@gmail.com)
 
 ## License information.
 ### MIT License
