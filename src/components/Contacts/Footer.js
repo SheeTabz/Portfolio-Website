@@ -1,5 +1,5 @@
 import React from 'react'
-import JavaScriptImage from '../..//assets/skills/tailwind.png'
+import JavaScriptImage from '../..//assets/skills/logo2.png'
 
 function Footer() {
   return (
