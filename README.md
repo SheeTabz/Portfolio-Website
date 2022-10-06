@@ -37,7 +37,7 @@ You may also see any lint errors in the console.
 
 ## Code Samples
 
-```React
+```JavaScript
 import React from 'react'
 import {serviceData} from '..//data'
 function ServiceItem({children}) {
