@@ -1,20 +1,35 @@
 
+import { useEffect, useState } from 'react';
 import './App.css';
-import About from './components/About';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import HeroSection from './components/HeroSection';
-import Portfolio from './components/Portfolio';
-import Services from './components/Services';
+import About from './components/About/About';
+import Contact from './components/Contacts/Contact';
+import Footer from './components/Contacts/Footer';
+import Header from './components/Header/Header';
+import HeroSection from './components/Home/HeroSection';
+import Portfolio from './components/Portfolio/Portfolio';
+import Services from './components/Services/Services';
 import Skill from './components/Skill';
-import Skills from './components/Skills';
+import Skills from './components/Skills/Skills';
 
 function App() {
+  const [theme,setTheme] = useState('light')
+  function handleTheme(){
+    if(theme === 'light'){
+      setTheme('dark');
+    }
+    else {
+      setTheme('light');
+    }
+  }
+
+useEffect(()=> {
+  document.body.className= theme
+},[theme])
+
   return (
     
-   <div className=" ">
-    <Header/>
+   <div className={`App ${theme}`}>
+    <Header handleTheme={handleTheme} theme={theme}/>
     <HeroSection/>
     <Skill/>
     <About/>
