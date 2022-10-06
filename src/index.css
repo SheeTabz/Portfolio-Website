@@ -1,6 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.dark{
+  background-color: dark;
+  color: white;
+}
+.light{
+  background-color: white;
+  color: black;
+}
+
 body {
  background-color: dark;
   margin: 0;
