@@ -36,18 +36,18 @@ nav ul li{
        opacity: 0.3;
        
 }
-.leftSection::before{
+/* .leftSection::before{
     content:'';
     position: absolute;
-    top: 10%;
-   left:8%;
+    top: 13%;
+   left:10%;
     height: 80px;
     width: 80px;
     border-style: double;
     border: 2px solid #dd4cca;
     border-bottom: none;
     border-right: none;
-}
+} */
 .leftSection h5,.section-title span, .contSpan{
     background: linear-gradient(to right, #f32170, #9e82f0);
 -webkit-text-fill-color: transparent;
@@ -79,7 +79,8 @@ input,textarea{
     padding: 10px;
 }
 .imageProfile img{
-    width:90px;
+    width:100px;
+    padding: 15px;
     border-radius:50px;
     background-color: #111111;
 }
