@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import MobileNav from './MobileNav'
 import NavBar from './NavBar'
-import SocialMeidal from './SocialMeidal'
+
 
 
 function Header() {
@@ -24,9 +24,7 @@ function Header() {
                     <NavBar /> 
                     </div>
                 {/* <SocialMeidal/> */}
-                <div className=" lg:block hidden ">
-                    <SocialMeidal />
-                     </div>
+              
                 {/* <MobileNav /> */}
                 <div className=" hidden sm:block">
                     <MobileNav />
