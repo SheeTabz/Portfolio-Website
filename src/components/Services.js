@@ -1,4 +1,5 @@
 import React from 'react'
+import ServiceItem from './ServiceItem'
 
 function Services() {
     return (
@@ -17,31 +18,11 @@ function Services() {
                 <div className='grid lg:grid-cols-3 gap-8'>
 
                     {/* REFACTOR THIS USING MAP */}
-                    <div className=' card bg-cardColor p-6 rounded-xl'>
-                        <div className='text-bright rounded-sm w-12 h-12 flex justify-center items-center
-                        mb-10 text-[28px]'>
-                            <i class="fa fa-gear fa-spin" ></i>
-                        </div>
-                        <h4  className='text-xl font-extrabold mb-3'>Web Development</h4>
-                        <p className='text-[18px]'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, </p>
-                    </div>
-                    <div className='bg-cardColor p-6 rounded-2xl'>
-                        <div className='text-bright rounded-sm w-12 h-12 flex justify-center items-center
-                        mb-10 text-[28px]'>
-                            <i class="fa fa-gear fa-spin" ></i>
-                        </div>
-                        <h4  className='text-xl font-extrabold mb-3'>Web Development</h4>
-                        <p className='text-[18px]'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, </p>
-                    </div>
-                    <div className='bg-cardColor p-6 rounded-2xl'>
-                        <div className='text-bright rounded-sm w-12 h-12 flex justify-center items-center
-                        mb-10 text-[28px]'>
-                            <i class="fa fa-gear fa-spin" ></i>
-                        </div>
-                        <h4  className='text-xl font-extrabold mb-3'>Web Development</h4>
-                        <p className='text-[18px]'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, </p>
-                    </div>
-                  
+                    <ServiceItem>
+                    <i class="fa fa-gear fa-spin" ></i>
+                    </ServiceItem>
+                
+                   
                 </div>
             </div>
         </section>
