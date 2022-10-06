@@ -5,7 +5,7 @@ function HeroSection() {
   return (
     <section className=' lg:h-[85vh] bg-dark flex items-center text-white lg:bg-cover lg:gb-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden heroSection'>
       <div className='container mx-auto ' >
-        <div className="flex item-center h-full pt-10">
+        <div className=" bubble flex item-center h-full pt-10">
           {/* left content */}
 
           <div className='leftSection flex-1 flex-col'>
