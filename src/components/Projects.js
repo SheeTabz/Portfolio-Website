@@ -1,21 +1,29 @@
 import React, { useEffect, useState } from 'react'
 import ProjItem from './ProjItem'
-import { projectInfo } from './data'
+// import { projectData } from './data'
 import {projectNavBar} from './data'
 
 function Projects() {
     const [item, setItem] = useState({name:'All'})
     const [projects, setProject] =useState([])
     const [isActive,setIsActive] = useState(0)
+    
+    
 
     useEffect(() => {
-        if(item.name === 'All'){
-            return setProject(projectInfo)
-        }
-        else{
-            const updatedProjects =  projectInfo.filter(project => project.name === item.name);
-             return setProject(updatedProjects)
-        }
+        fetch('https://sheetabz.github.io/porfolioServer/data.json')
+        .then(response => response.json())
+        .then(data => {
+            const projectData = data.projectInfo
+            if(item.name === 'All'){
+                return setProject(projectData)
+            }
+            else{
+                const updatedProjects =  projectData.filter(project => project.name === item.name);
+                 return setProject(updatedProjects)
+            }
+        })
+      
     },[item])
 
 function handlesClick(e,index){
