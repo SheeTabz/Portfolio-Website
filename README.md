@@ -2,12 +2,12 @@
 ***
 
 ## Describtion
-This m portfolio where I have document my professional profile and sample of my works.
+This is my portfolio where I have documented my professional profile and sample of my works.
 
 
 ## Site Demo
 Use the link provided to navigate to my Portfolio website .
-[Portfolio](https://titan-real-estate.netlify.app/)<br>
+[Portfolio](https://tabitha-portfolio.netlify.app/)<br>
 
 ## Technologies used & Features
 - Well designed and responsive UI
