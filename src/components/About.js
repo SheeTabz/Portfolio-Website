@@ -4,8 +4,8 @@ import Button from './Button'
 function About() {
   return (
     <section className='aboutSection bg-dark text-white'>
-      <div className='container mx-auto'>
-        <div className='flex flex-col xl:flex-row gap-30 py-40 '>
+      <div className=' container mx-auto'>
+        <div className=' aboutImg z-40 flex flex-col xl:flex-row gap-30 py-40 '>
           <img
             className='object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl '
             src='https://w0.peakpx.com/wallpaper/711/366/HD-wallpaper-laptop-screen-code-programming-thumbnail.jpg' />
