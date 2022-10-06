@@ -2,7 +2,8 @@
 ***
 
 ## Describtion
-Titan Real Estate website is a platform that provides clients with the freedom to locate house properties of different kinds that meet their desires and at affordable prices. 
+This m portfolio where I have document my professional profile and sample of my works.
+
 
 ## Site Demo
 Use the link provided to navigate to my Portfolio website .
@@ -70,14 +71,4 @@ export default ServiceItem
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
 
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
