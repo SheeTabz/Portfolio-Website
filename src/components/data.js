@@ -8,17 +8,17 @@ import Figma from '../assets/skills/figma.png';
 export const serviceData = [
     {
         professional: "Software Development",
-        description : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam,"
+        description : "I always try to improve the quality of peoples products by exploring innovative ideas and new techniques then implementing that by developing software."
 
     },
     {
         professional: "Product Design",
-        description : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam,"
+        description : "Passionate about makimg the user's experience with the product as positive as possible, so that they will continue using it and recommending it to others."
 
     },
     {
-        professional: "Product Design",
-        description : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam,"
+        professional: "Android Developer",
+        description : "I strive to achieve customer satisfaction by delivering solutions that meet their expectations in terms of quality, budget, and time"
 
     }
 ]
