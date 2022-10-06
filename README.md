@@ -63,9 +63,9 @@ function ServiceItem({children}) {
 
 export default ServiceItem
 ```
-### Author
-#### [TABITHA MURIITHI](https://github.com/SheeTabz)
-#### Contact Info -[wmuriithitabitha@gmail.com](wmuriithitabitha@gmail.com)
+## Author
+### Name : [TABITHA MURIITHI](https://github.com/SheeTabz)
+### Contact Info :  [wmuriithitabitha@gmail.com](wmuriithitabitha@gmail.com)
 
 ## License information.
 ### MIT License
