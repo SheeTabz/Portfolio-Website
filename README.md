@@ -1,11 +1,34 @@
-# Getting Started with Create React App
+# PORTFOLIO WEBSITE
+***
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Describtion
+This is my portfolio where I have documented my professional profile and sample of my works.
 
-## Available Scripts
+
+## Site Demo
+Use the link provided to navigate to my Portfolio website .
+[Portfolio](https://tabitha-portfolio.netlify.app/)<br>
+
+## Technologies used & Features
+- Well designed and responsive UI
+- React.js
+- CSS3
+- Tailwind css
+- API
+
+## Future-implementations 
+- React animatio libraries
+
+## Contribution
+If you need to contribute to this project follow the steps below:<br>
+- Fork the repo first (`fork`)
+- Clone the repo(`git clone <repo link>`)
+- Create a branch where you will add changes (`git branch -b <branchname>`)
+- Add the changes (`git add .`)
+- Commit changes (`git commit -m"contributing changes"`)
+- Push your changes (`git push origin <branchname>`)
 
 In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -14,57 +37,39 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## Code Samples
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```JavaScript
+import React from 'react'
+import {serviceData} from '..//data'
+function ServiceItem({children}) {
+  return (
+    <>
+    {serviceData.map(service=>{
+        return (
+            <div className=' card  border-t-4 border-t-fuchsia-600 bg-cardColor p-6 rounded-xl'>
+            <div className='text-bright rounded-sm w-12 h-12 flex justify-center items-center
+            mb-10 text-[28px]'>
+                {children}
+            </div>
+            <h4  className='text-xl font-extrabold mb-3'>{service.professional}</h4>
+            <p className='text-[18px]'>{service.description}, </p>
+        </div>
+        )
+    })}
+    </>
+  )
+}
 
-### `npm run build`
+export default ServiceItem
+```
+## Author
+### Name : [TABITHA MURIITHI](https://github.com/SheeTabz)
+### Contact Info :  [wmuriithitabitha@gmail.com](wmuriithitabitha@gmail.com)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License information.
+### MIT License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+`[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
