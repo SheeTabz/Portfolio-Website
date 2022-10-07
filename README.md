@@ -7,7 +7,7 @@ This is my portfolio where I have documented my professional profile and sample 
 
 ## Site Demo
 Use the link provided to navigate to my Portfolio website .
-[Portfolio](https://tabitha-portfolio.netlify.app/)<br>
+[Portfolio](https://shee-portfolio.netlify.app/)<br>
 
 ## Technologies used & Features
 - Well designed and responsive UI
