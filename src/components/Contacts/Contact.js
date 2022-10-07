@@ -22,10 +22,20 @@ function Contact() {
     function handleSubmit(e){
         e.preventDefault();
          alert(`Hello, ${formData.fName} I have have recived your email '${formData.title}' through ${formData.email} and you will receive a response`)
+         fetch("https://sheetabz.github.io/porfolioServer/data.json/",{
+            method: 'POST',
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body:JSON.stringify(formData)
+         }
+         )
+         .then(response => response.json())
+         .then(data => console.log(data))
         //  emailjs.sendForm('service_lehnk1b','template_0nxxwos',e.target,'N2urJew5HYYVSapr9EneT')
         //  .then(res=> console.log(res))
     }
-   console.log(formData)
+//    console.log(formData)
     return (
         <section id='contacts' className='py-12 lg:py-32 bg-dark text-white'>
             <div className='container mx-auto'>
