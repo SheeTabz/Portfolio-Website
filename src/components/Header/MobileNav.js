@@ -1,27 +1,27 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
-import {Link} from 'react-router-dom'
+import {HashLink as Link } from 'react-router-hash-link'
 
 function MobileNav() {
   const navData =[ {
     name: 'Home',
-    href : '/',
+    href : '#',
   },
   {
     name: 'About',
-    href : '/about',
+    href : '#about',
   },
   {
     name: 'SKills',
-    href : '/sKills',
+    href : '#sKills',
   },
   {
     name: 'Projects',
-    href : '/projects',
+    href : '#projects',
   },
   {
     name: 'Contacts',
-    href : '/contacts',
+    href : '#contacts',
   }]
 
  const [isOpen, setIsOpen] = useState(false)
