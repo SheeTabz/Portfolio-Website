@@ -29,7 +29,7 @@ function Header({handleTheme,theme}) {
                 {theme ? 'Light': 'Dark'}
                 </button> */}
                 {/* <MobileNav /> */}
-                <div className=" sm:block">
+                <div className=" sm:block lg:hidden">
                     <MobileNav />
                     </div>
 

@@ -1,5 +1,5 @@
-import React,{ useState} from 'react'
-// import emailjs from 'emailjs-com'
+import React,{ useRef, useState} from 'react'
+import emailjs from 'emailjs-com'
 import Button from '../Buttons/Button'
 
 function Contact() {
@@ -10,6 +10,7 @@ function Contact() {
         message:'',
 
     })
+    const form = useRef()
 
     function handlesChange(e){
         const value = e.target.value;
@@ -21,19 +22,29 @@ function Contact() {
 
     function handleSubmit(e){
         e.preventDefault();
-         alert(`Hello, ${formData.fName} I have have recived your email '${formData.title}' through ${formData.email} and you will receive a response`)
-         fetch("https://sheetabz.github.io/porfolioServer/data.json/",{
-            method: 'POST',
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body:JSON.stringify(formData)
-         }
-         )
-         .then(response => response.json())
-         .then(data => console.log(data))
-        //  emailjs.sendForm('service_lehnk1b','template_0nxxwos',e.target,'N2urJew5HYYVSapr9EneT')
-        //  .then(res=> console.log(res))
+       
+        //  fetch("https://sheetabz.github.io/porfolioServer/data.json/",{
+        //     method: 'POST',
+        //     headers: {
+        //         "Content-Type": "application/json",
+        //     },
+        //     body:JSON.stringify(formData)
+        //  }
+        //  )
+        //  .then(response => response.json())
+        //  .then(data => console.log(data))
+         emailjs.send('service_lehnk1b','template_0nxxwos',formData,'nngGNUAfCembmi7M5')
+         .then(res=> console.log(res)
+         ,(error) => {
+            console.log(error.text);
+        })
+        alert(`Hello, ${formData.fName} I have have recived your email '${formData.title}' through ${formData.email} and you will receive a response`)
+        setFormData({
+            fName:'',
+            email:'',
+            title:'',
+            message:'',
+        })
     }
 //    console.log(formData)
     return (
@@ -62,7 +73,7 @@ function Contact() {
                     </div>
                     {/* FORM */}
 
-                   <form className='space-y-8 w-full max-w-[500px] bg-cardColor py-8 px-10 flex flex-col' onSubmit={handleSubmit}>
+                   <form ref={form} className='space-y-8 w-full max-w-[500px] bg-cardColor py-8 px-10 flex flex-col' onSubmit={handleSubmit}>
                     <h3>FILL IN THE FORM BELOW*</h3>
                     <input 
                     type='text' 

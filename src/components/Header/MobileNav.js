@@ -61,7 +61,7 @@ function MobileNav() {
     className='w-4 h-4 rounded-full bg-bright  fixed top-0 right-0'></motion.div>
      <motion.ul variants={listVar} inital='hidden' animate={isOpen ? 'visible' : ''}
     className={`${isOpen ? 'right-0' : '-right-full'} motioned fixed top-0 bottom-0 w-full flex-col 
-    justify-center item-center transition-all duration-300 overflow-hidden`}>
+    justify-center items-center transition-all duration-300 overflow-hidden`}>
 
       {/* Close icon */}
       <div className='cursor-pointer absolute top-9 right-9' onClick={()=>setIsOpen(false)}>
