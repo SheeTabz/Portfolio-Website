@@ -151,7 +151,8 @@ input,textarea{
        width: 130px;
 }
 .services::after{
-    top: 99%; 
+    top: 100%; 
+    left: 79%;
 }
 .leftSection::after{
    left:75%;
