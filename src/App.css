@@ -19,7 +19,7 @@ nav ul li{
    left:80%;
    height: 80px;
    width: 80px;
-    border: 2px solid #dd4cca;
+    border: 3px solid #dd4cca;
     border-style: double;
     border-top: none;
     border-left: none;
@@ -139,4 +139,20 @@ input,textarea{
     border-radius: 50px;
     opacity: 0.4;
     background-image: linear-gradient(to right, #f32170, #9e82f0);
+}
+
+@media screen and (max-width:640px){
+    .bubble::after{
+       height: 150px;
+       width: 150px;
+}
+.services::after{
+    top: 85%; 
+}
+.leftSection::after{
+   left:76%;
+   height: 80px;
+ 
+}
+    
 }

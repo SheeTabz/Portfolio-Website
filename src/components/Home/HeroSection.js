@@ -24,7 +24,7 @@ Hey, I am Tabitha
              "&Android Developer", 2000,
              ]}
              /></h1>
-            <p className="text-text text-lg pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px]  text-center lg:text-left"> 
+            <p className="text-text text-lg pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px]   lg:text-left"> 
             Welcome to my world, Get to know more about my professional life
              </p>
             <Button name='View more'/>

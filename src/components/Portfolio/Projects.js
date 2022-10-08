@@ -36,7 +36,7 @@ function handlesClick(e,index){
   return (
     <div>
     <nav className='mb-12 max-w-2xl mx-auto'>
-       <ul className=' flex flex-col md:flex-row justify-evenly item-center text-white'>
+       <ul className=' flex flex-col md:flex-row justify-evenly items-center text-white'>
         {projectNavBar.map((item,index) => {
             return <li onClick={(e) => handlesClick(e, index)}
             className={`${isActive === index ? 'active' : ''} navpro cursor-pointer capitalize m-4`}
