@@ -142,17 +142,27 @@ input,textarea{
 }
 
 @media screen and (max-width:640px){
+    #home, #about, #skills, #contacts{
+      padding-left: 10px;  
+      padding-right: 10px;
+    }
     .bubble::after{
        height: 150px;
        width: 150px;
 }
 .services::after{
-    top: 85%; 
+    top: 99%; 
 }
 .leftSection::after{
-   left:76%;
+    
+    top: 50%;
+   left:80%;
    height: 80px;
- 
+   width: 80px;
+    border: 3px solid #dd4cca;
+    border-style: double;
+    border-top: none;
+    border-left: none;
 }
     
 }
