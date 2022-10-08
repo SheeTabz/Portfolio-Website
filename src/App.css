@@ -147,22 +147,29 @@ input,textarea{
       padding-right: 10px;
     }
     .bubble::after{
-       height: 150px;
-       width: 150px;
+       height: 130px;
+       width: 130px;
 }
 .services::after{
     top: 99%; 
 }
 .leftSection::after{
+   left:75%;
+}
+.ulProjects{
+    display: flex;
+}
+.navpro{
+
+
+   
+    width:100px;
+    text-align: center;
     
-    top: 50%;
-   left:80%;
-   height: 80px;
-   width: 80px;
-    border: 3px solid #dd4cca;
-    border-style: double;
-    border-top: none;
-    border-left: none;
+  
+    border-radius: 15px;
+    padding: 4px 5px;
+  
 }
     
 }
