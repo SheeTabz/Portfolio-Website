@@ -17,7 +17,7 @@ Use the link provided to navigate to my Portfolio website .
 - API
 
 ## Future-implementations 
-- React animatio libraries
+- React animation libraries (framer motion animation libraries)
 
 ## Contribution
 If you need to contribute to this project follow the steps below:<br>
