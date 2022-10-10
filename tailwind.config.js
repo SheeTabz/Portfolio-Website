@@ -9,9 +9,9 @@ module.exports = {
         primary : "#312544",
         btncolor : "#A162CF",
         text : "#FFFFFF",
-        dark :  "#000000",
-        text2 : "#8B85A9",
-        bright : "#C44CB6 ",
+        dark :  "#0E0E0E",
+        text2 : "#ef5036",
+        bright : "#EF5036 ",
         gradient1: '#CE6D88',
         cardColor: '#191919',
       

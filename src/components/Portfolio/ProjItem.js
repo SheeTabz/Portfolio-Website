@@ -3,7 +3,7 @@ import Button from '../Buttons/Button'
 
 function ProjItem({data}) {
   return (
-    <div key={data.id} className='  flex flex-col item-center   bg-cardColor h-[400px]'>
+    <div key={data.id} className='  flex flex-col item-center   bg-cardColor h-[430px] rounded-xl'>
        <div className=' mb-4 flex items-center justify-center rounded-xl pt-3'>
         
         <img className=' ' src={data.image} alt=''/>

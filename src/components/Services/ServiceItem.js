@@ -5,7 +5,7 @@ function ServiceItem({children}) {
     <>
     {serviceData.map(service=>{
         return (
-            <div className=' card  border-t-4 border-t-fuchsia-600 bg-cardColor p-6 rounded-xl'>
+            <div className=' card  border-t-4 border-t-bright bg-cardColor p-6 rounded-xl'>
             <div className='text-bright rounded-sm w-12 h-12 flex justify-center items-center
             mb-10 text-[28px]'>
                 {children}
