@@ -65,9 +65,9 @@ function Contact() {
                     </p> 
                         <div className='flex flex-col gap-y-6 '>
                             <p>
-                                <a href=''><i class="fa fa-envelope text-white text-3xl"></i> wmuriithitabitha@gmail.com</a> 
+                                <a href=''><i class="fa fa-envelope text-bright text-3xl"></i> wmuriithitabitha@gmail.com</a> 
                                 </p>
-                            <p><i class="fa fa-solid fa-phone text-white text-3xl"></i> +254 794 050295</p>
+                            <p><i class="fa fa-solid fa-phone text-bright text-3xl"></i> +254 794 050295</p>
 
                         </div>
                     </div>
