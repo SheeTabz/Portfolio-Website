@@ -29,6 +29,7 @@ If you need to contribute to this project follow the steps below:<br>
 - Push your changes (`git push origin <branchname>`)
 
 In the project directory, you can run:
+**
 ### `npm start`
 
 Runs the app in the development mode.\
