@@ -1,5 +1,6 @@
 
 import { useEffect, useState } from 'react';
+import { Animator, ScrollContainer, ScrollPage, FadeIn, batch, Zoom, ZoomIn, Fade, Move, Sticky, MoveOut } from 'react-scroll-motion';
 import './App.css';
 import About from './components/About/About';
 import Contact from './components/Contacts/Contact';
@@ -30,6 +31,19 @@ useEffect(()=> {
     
    <div className={`App ${theme}`}>
     <Header handleTheme={handleTheme} theme={theme}/>
+    {/* <ScrollContainer>
+      <ScrollPage page={0}>
+        <Animator animation={batch(Zoom())}>
+        
+        </Animator>
+      </ScrollPage>
+      <ScrollPage page={1}>
+        <Animator animation={batch(Fade(), Move(), Sticky(), MoveOut)}>
+       
+        </Animator>
+      </ScrollPage>
+    </ScrollContainer> */}
+   
     <HeroSection/>
     <Skill/>
     <About/>
