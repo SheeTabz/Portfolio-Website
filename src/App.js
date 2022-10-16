@@ -34,12 +34,12 @@ useEffect(()=> {
     {/* <ScrollContainer>
       <ScrollPage page={0}>
         <Animator animation={batch(Zoom())}>
-        
+         <HeroSection/>
         </Animator>
       </ScrollPage>
       <ScrollPage page={1}>
         <Animator animation={batch(Fade(), Move(), Sticky(), MoveOut)}>
-       
+        <Skill/>
         </Animator>
       </ScrollPage>
     </ScrollContainer> */}
