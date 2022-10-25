@@ -1,8 +1,9 @@
 import React from 'react'
 import Button from '../Buttons/Button'
-
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 function ProjItem({data}) {
   return (
+    <AnimationOnScroll animateIn="animate__fadeInBottomLeft" duration={3}>
     <div key={data.id} className='  flex flex-col item-center   bg-cardColor h-[430px] rounded-xl'>
        <div className=' mb-4 flex items-center justify-center rounded-xl pt-3'>
         
@@ -23,6 +24,7 @@ function ProjItem({data}) {
             </a>
        </div>
     </div>
+    </AnimationOnScroll>
   )
 }
 
