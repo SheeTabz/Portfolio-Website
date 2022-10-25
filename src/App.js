@@ -1,6 +1,5 @@
 
 import { useEffect, useState } from 'react';
-import { Animator, ScrollContainer, ScrollPage, FadeIn, batch, Zoom, ZoomIn, Fade, Move, Sticky, MoveOut } from 'react-scroll-motion';
 import './App.css';
 import About from './components/About/About';
 import Contact from './components/Contacts/Contact';
@@ -11,6 +10,9 @@ import Portfolio from './components/Portfolio/Portfolio';
 import Services from './components/Services/Services';
 import Skill from './components/Skill';
 import Skills from './components/Skills/Skills';
+import 'animate.css';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+
 
 function App() {
   const [theme,setTheme] = useState('light')
@@ -31,22 +33,11 @@ useEffect(()=> {
     
    <div className={`App ${theme}`}>
     <Header handleTheme={handleTheme} theme={theme}/>
-    {/* <ScrollContainer>
-      <ScrollPage page={0}>
-        <Animator animation={batch(Zoom())}>
-         <HeroSection/>
-        </Animator>
-      </ScrollPage>
-      <ScrollPage page={1}>
-        <Animator animation={batch(Fade(), Move(), Sticky(), MoveOut)}>
-        <Skill/>
-        </Animator>
-      </ScrollPage>
-    </ScrollContainer> */}
+   
    
     <HeroSection/>
     <Skill/>
-    <About/>
+    <About className=""/>
     <Skills/>
     <Services/>
     <Portfolio/>

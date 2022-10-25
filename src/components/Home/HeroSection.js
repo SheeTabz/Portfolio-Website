@@ -5,7 +5,8 @@ import Typical from 'react-typical'
 function HeroSection() {
   return (
     <section id='home'  className=' lg:h-[85vh] bg-dark flex items-center text-white lg:bg-cover lg:gb-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden heroSection'>
-      <div className='container mx-auto ' >
+
+      <div className='animate__animated animate__slideInDown container mx-auto ' >
         <div className=" bubble flex item-center h-full pt-10">
           {/* left content */}
 

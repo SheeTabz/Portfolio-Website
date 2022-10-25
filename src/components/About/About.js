@@ -1,9 +1,12 @@
 import React from 'react'
+import 'animate.css'
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 import Button from '../Buttons/Button'
 function About() {
   return (
-    <section id='about' className='aboutSection bg-dark text-white'>
+    <section id='about' className=' aboutSection bg-dark text-white'>
+      <AnimationOnScroll animateIn="animate__fadeInRightBig" duration={3} >
       <div className=' container mx-auto'>
         <div className=' aboutImg z-40 flex flex-col xl:flex-row gap-30 py-40 '>
           <img
@@ -27,6 +30,7 @@ function About() {
           </div>
         </div>
       </div>
+      </AnimationOnScroll>
     </section>
   )
 }
