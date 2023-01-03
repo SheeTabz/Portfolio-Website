@@ -133,7 +133,16 @@ input,textarea{
     opacity: 0.4;
     background-image: linear-gradient(to right, #EF5036 , #b65924fb);
 }
-
+.card, .fa .fa-code{
+    transition: 0.5s ease-in-out;
+}
+.fa .fa-code:hover{
+    color: #fff;
+}
+.card:hover{
+background-color:  #EF5036;
+color:#fff;
+}
 @media screen and (max-width:640px){
     #home, #about, #skills, #contacts{
       padding-left: 10px;  
@@ -154,13 +163,8 @@ input,textarea{
     display: flex;
 }
 .navpro{
-
-
-   
     width:100px;
     text-align: center;
-    
-  
     border-radius: 15px;
     padding: 4px 5px;
   

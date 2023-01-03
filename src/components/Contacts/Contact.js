@@ -81,6 +81,7 @@ function Contact() {
                     placeholder='Enter your name'
                      value={formData.fName}
                      onChange={handlesChange}
+                     required
                      />
                     <input 
                     type='email'
@@ -88,6 +89,7 @@ function Contact() {
                      placeholder='Enter email' 
                       value={formData.email} 
                       onChange={handlesChange} 
+                      required
                       />
                     <input  
                     type='text' 
@@ -95,12 +97,14 @@ function Contact() {
                     placeholder='Subject'  
                     value={formData.title} 
                     onChange={handlesChange}
+                    required
                     />
                     <textarea 
                     name='message' 
                     placeholder='Enter Message' 
                      value={formData.message}
                      onChange={handlesChange} 
+                     required
                      ></textarea>
                     <Button type='submit' name='Submit'/>
                    </form>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../Buttons/Button'
+// import Button from '../Buttons/Button'
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 function ProjItem({data}) {
   return (
