@@ -2,7 +2,7 @@
 ***
 
 ## Describtion
-This is my portfolio where I have documented my professional profile and sample of my works.
+This is my portfolio where I have documented my professional profile and sample of my works and how to contact me.
 
 
 ## Site Demo
