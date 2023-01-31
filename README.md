@@ -6,7 +6,7 @@ This is my portfolio where I have documented my professional profile and sample 
 
 
 ## Site Demo
-Use the link provided to navigate to my Portfolio website .
+Use the link provided to navigate to my Portfolio website and see my details.
 [Portfolio](https://portfolio-website-five-pink.vercel.app/)<br>
 
 ## Technologies used & Features
